@@ -1,0 +1,20 @@
+.for-whom {
+    background: $background-light-green;
+    h2 {
+        padding: 69px 30px 20px 25px;  
+        @include text-size26-height31-600;
+        color: $background-orange;
+    }
+    p {
+        margin-top: 19px;
+        margin-bottom: 52px;
+        @include text-size13-height16(400);
+        span {
+            @include text-size13-height16(600);
+        }
+    }
+    img {
+        max-width: 270px;
+        max-height: 180px;
+    }
+}

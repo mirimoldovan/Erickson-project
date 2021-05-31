@@ -1,0 +1,21 @@
+.program {
+    margin: 0 26px 76px 26px;
+    h1 {
+        @include text-size26-height31-600;
+    }
+    .card {
+        @include card-height;
+        padding: 0 26px;
+        background: $background-light-green;
+        border-radius: 10px;
+        border: 1px solid #E9F6F6;
+        P {
+            @include text-size12-height14-400;
+            font-weight: 600;
+            color: $text-color-dark;
+        }
+        img {
+            margin: 19px auto auto;
+        }
+    }
+}

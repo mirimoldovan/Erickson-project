@@ -1,0 +1,59 @@
+$background-1: #FFFFFF;
+$background: linear-gradient(180deg, #FFFFFF 0%, #F4FBFB 100%);
+$background-green: linear-gradient(180deg, #6CC8C6 0%, #00918D 100%);
+$background-orange: #F1592A;
+$background-photo: rgba(108, 200, 198, 0.5);
+$background-green-0: #6CC8C6;
+$background-light-green: #F4FBFB;
+$background-grey: #302F2F;
+$text-color-0: #494949;
+$text-color-1: #0C0C0C;
+$text-color-light: #242424;
+$text-color-dark: #0E2525;
+$text-color-darker: #131313;
+$text-color01: #010101;
+$text-color27: #272727;
+
+$font-family: 'Exo 2', sans-serif;
+
+@mixin card-height {
+    height: 100%;           /*equal height for all cards*/
+}
+
+@mixin text-size14-height17-400 {
+    font-size: 14px;
+    line-height: 17px;              
+    font-weight: 400;
+}
+@mixin text-size14-height17-600 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+}
+@mixin text-size12-height14-400 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+@mixin text-size16-height19-600 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+}
+@mixin text-size16-height19-400 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400px;
+}
+@mixin text-size26-height31-600 {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+}
+@mixin text-size13-height16($font-weight) {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: $font-weight;
+}
+/*last variant of @mixin is the best for all mixin from the top*/

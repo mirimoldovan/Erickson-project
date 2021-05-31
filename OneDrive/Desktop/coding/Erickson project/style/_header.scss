@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    .date-start {
+        color: $text-color-0;
+        @include text-size14-height17-600;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-self: end;
+        align-items: end;
+        .date-color {
+            background: $background-orange;
+            padding: 2px 8px;
+        }
+    }
+}

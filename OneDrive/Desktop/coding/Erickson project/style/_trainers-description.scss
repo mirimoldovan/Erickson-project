@@ -1,0 +1,28 @@
+.trainers-description {
+    color: $text-color-light;
+    h2 {
+        color: $background-orange;
+        @include text-size26-height31-600;
+    }
+    .p1 {
+        @include text-size16-height19-600;
+    }
+    .card {
+        @include card-height;
+        @include text-size14-height17-400;
+        background: $background-light-green;
+        border-radius: 10px;
+        border: 1px solid #E9F6F6;
+        img {
+            border-radius: 500px;
+            box-shadow:  0px -5px  $background-green-0;
+        }
+    }
+    button {
+        background-image: url(../images/Vector.png);
+        background-repeat: no-repeat;
+        border: none;
+        min-width: 13px;
+        min-height: 4px;
+    }
+}

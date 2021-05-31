@@ -1,0 +1,12 @@
+.author {
+    background: $background-light-green;
+    margin-top: 74px;
+    p {
+       @include text-size13-height16(400); 
+    }
+    img {
+        max-width: 184px;
+        border-radius: 500px;
+        box-shadow:  12px -12px  $background-orange;
+    }
+}

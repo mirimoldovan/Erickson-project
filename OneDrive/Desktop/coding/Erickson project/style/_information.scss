@@ -1,0 +1,18 @@
+.info {
+    padding: 64px 0 72px 0;
+    .img-left {
+        border-radius: 0px 3px 3px 3px;
+        box-shadow: 8px 8px $background-photo;
+    }
+    .img-right {
+        border-radius: 3px 0px 0px 3px;
+        box-shadow: -8px  8px $background-photo;
+    }
+    p {
+        color: $text-color27;
+        @include text-size16-height19-400;
+        span {
+            @include text-size16-height19-600;
+        }
+    }
+}

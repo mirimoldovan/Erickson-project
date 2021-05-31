@@ -1,0 +1,399 @@
+.header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 15px 20px;
+  }
+  
+  .header .date-start {
+    color: #494949;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    -ms-flex-item-align: end;
+        align-self: end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  
+  .header .date-start .date-color {
+    background: #F1592A;
+    padding: 2px 8px;
+  }
+  
+  .container h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 126%;
+    color: #0C0C0C;
+    padding: 0 26px 0 25px;
+  }
+  
+  .container h2 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+    color: #0C0C0C;
+  }
+  
+  .container p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #010101;
+  }
+  
+  .container .px-4 {
+    color: #272727;
+  }
+  
+  .container .card {
+    height: 100%;
+    /*equal height for all cards*/
+    background: -webkit-gradient(linear, left top, left bottom, from(#6CC8C6), to(#00918D));
+    background: linear-gradient(180deg, #6CC8C6 0%, #00918D 100%);
+    border-radius: 10px;
+  }
+  
+  .container .card P {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+  
+  .container .card img {
+    margin: 19px auto auto;
+  }
+  
+  .container .rounded-pill {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400px;
+    background: #F1592A;
+    padding: 20px 54px 22px 54px;
+    width: 291px;
+    height: 56.76px;
+    margin: 40px auto 0;
+  }
+  
+  .info {
+    padding: 64px 0 72px 0;
+  }
+  
+  .info .img-left {
+    border-radius: 0px 3px 3px 3px;
+    -webkit-box-shadow: 8px 8px rgba(108, 200, 198, 0.5);
+            box-shadow: 8px 8px rgba(108, 200, 198, 0.5);
+  }
+  
+  .info .img-right {
+    border-radius: 3px 0px 0px 3px;
+    -webkit-box-shadow: -8px 8px rgba(108, 200, 198, 0.5);
+            box-shadow: -8px 8px rgba(108, 200, 198, 0.5);
+  }
+  
+  .info p {
+    color: #272727;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400px;
+  }
+  
+  .info p span {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+  
+  .trainers {
+    background: #6CC8C6;
+    color: #494949;
+    padding: 0 29px 53px 29px;
+  }
+  
+  .trainers h3 {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .trainers .card {
+    height: 100%;
+    /*equal height for all cards*/
+    padding: 23px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 5px #F1592A;
+            box-shadow: 0px 5px #F1592A;
+  }
+  
+  .trainers .card h2 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 600;
+  }
+  
+  .trainers .card .badge {
+    background: #F1592A;
+    border-radius: 10rem;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    border: 1px solid #FFFFFF;
+  }
+  
+  .trainers .card .p1 {
+    font-size: 13px;
+    line-height: 16px;
+    color: #242424;
+  }
+  
+  .trainers .card .p1 span {
+    font-weight: 600;
+  }
+  
+  .trainers .card .p2 {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+  }
+  
+  .trainers .card .p3 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+  }
+  
+  .trainers .card button {
+    border: none;
+    background: #FFFFFF;
+    font-size: 28px;
+    line-height: 26px;
+    color: #B3B3B3;
+  }
+  
+  .trainers .card img {
+    border-radius: 500px;
+    -webkit-box-shadow: 5px 0px #6CC8C6;
+            box-shadow: 5px 0px #6CC8C6;
+  }
+  
+  .program {
+    margin: 0 26px 76px 26px;
+  }
+  
+  .program h1 {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .program .card {
+    height: 100%;
+    /*equal height for all cards*/
+    padding: 0 26px;
+    background: #F4FBFB;
+    border-radius: 10px;
+    border: 1px solid #E9F6F6;
+  }
+  
+  .program .card P {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    font-weight: 600;
+    color: #0E2525;
+  }
+  
+  .program .card img {
+    margin: 19px auto auto;
+  }
+  
+  .table {
+    background: #6CC8C6;
+    color: #131313;
+  }
+  
+  .table h2 {
+    padding: 61px 30px 20px 25px;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .list h2 {
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+    color: #F1592A;
+    padding: 41px 30px 20px 25px;
+  }
+  
+  .list .list-item {
+    background: #F4FBFB;
+    border: 1px solid #E9F6F6;
+    border-radius: 5px;
+    margin: 23px;
+  }
+  
+  .list .list-item p {
+    font-size: 13px;
+    line-height: 114%;
+    color: #242424;
+    padding-left: 9px;
+  }
+  
+  .list h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #242424;
+  }
+  
+  .list .img-right {
+    border-radius: 3px 0px 0px 3px;
+    -webkit-box-shadow: -8px 8px rgba(108, 200, 198, 0.5);
+            box-shadow: -8px 8px rgba(108, 200, 198, 0.5);
+  }
+  
+  .for-whom {
+    background: #F4FBFB;
+  }
+  
+  .for-whom h2 {
+    padding: 69px 30px 20px 25px;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+    color: #F1592A;
+  }
+  
+  .for-whom p {
+    margin-top: 19px;
+    margin-bottom: 52px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+  
+  .for-whom p span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 600;
+  }
+  
+  .for-whom img {
+    max-width: 270px;
+    max-height: 180px;
+  }
+  
+  .trainers-description {
+    color: #242424;
+  }
+  
+  .trainers-description h2 {
+    color: #F1592A;
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .trainers-description .p1 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+  }
+  
+  .trainers-description .card {
+    height: 100%;
+    /*equal height for all cards*/
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    background: #F4FBFB;
+    border-radius: 10px;
+    border: 1px solid #E9F6F6;
+  }
+  
+  .trainers-description .card img {
+    border-radius: 500px;
+    -webkit-box-shadow: 0px -5px #6CC8C6;
+            box-shadow: 0px -5px #6CC8C6;
+  }
+  
+  .trainers-description button {
+    background-image: url(../images/Vector.png);
+    background-repeat: no-repeat;
+    border: none;
+    min-width: 13px;
+    min-height: 4px;
+  }
+  
+  .author {
+    background: #F4FBFB;
+    margin-top: 74px;
+  }
+  
+  .author p {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+  }
+  
+  .author img {
+    max-width: 184px;
+    border-radius: 500px;
+    -webkit-box-shadow: 12px -12px #F1592A;
+            box-shadow: 12px -12px #F1592A;
+  }
+  
+  .feedback h2 {
+    padding-bottom: 210px;
+  }
+  
+  .feedback .contacts {
+    background: #302F2F;
+    padding-bottom: 146px;
+  }
+  
+  * {
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    font-family: "Exo 2", sans-serif;
+  }
+  
+  body .orange-text {
+    color: #F1592A;
+  }
+  
+  body .wrapper {
+    background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F4FBFB));
+    background: linear-gradient(180deg, #FFFFFF 0%, #F4FBFB 100%);
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 57px;
+  }
+  /*# sourceMappingURL=style.css.map */

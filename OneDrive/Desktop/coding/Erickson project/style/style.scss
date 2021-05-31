@@ -1,0 +1,30 @@
+@import "./variable";
+@import "./header";
+@import "./container";
+@import "./information";
+@import "./trainers";
+@import "./program";
+@import "./table";
+@import "./list";
+@import "./for-whom";
+@import "./trainers-description";
+@import "./author";
+@import "./feedback";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $background-1;
+    font-family: $font-family;
+    .orange-text {
+        color: $background-orange;
+    }
+    .wrapper {
+        background: $background;
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 57px;
+    }
+}

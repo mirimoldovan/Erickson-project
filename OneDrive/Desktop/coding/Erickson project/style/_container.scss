@@ -1,0 +1,40 @@
+.container {
+    h1 {
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 126%;
+        color: $text-color-1;
+        padding: 0 26px 0 25px;
+    }
+    h2 {
+        @include text-size14-height17-600;
+        color: $text-color-1;
+    }
+    p {
+        font-size: 14px;
+        line-height: 21px;
+        color: $text-color01;
+    }
+    .px-4 {
+        color: $text-color27;
+    }
+    .card {
+        @include card-height;
+        background: $background-green;
+        border-radius: 10px;
+        P {
+            @include text-size12-height14-400;
+        }
+        img {
+            margin: 19px auto auto;
+        }      
+    }
+    .rounded-pill {
+        @include text-size16-height19-400;
+        background: $background-orange;
+        padding: 20px 54px 22px 54px;
+        width: 291px;
+        height: 56.76px;
+        margin: 40px auto 0;
+    }
+}
